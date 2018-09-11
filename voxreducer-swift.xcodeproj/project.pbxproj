@@ -14,6 +14,8 @@
 		A9FFDE8221483A0700FF0CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFDE8021483A0700FF0CED /* LaunchScreen.storyboard */; };
 		A9FFDE8D21483A0700FF0CED /* voxreducer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDE8C21483A0700FF0CED /* voxreducer_swiftTests.swift */; };
 		A9FFDE9821483A0700FF0CED /* voxreducer_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDE9721483A0700FF0CED /* voxreducer_swiftUITests.swift */; };
+		A9FFDEAB21483D4C00FF0CED /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDEA921483D4C00FF0CED /* PlaybackViewController.swift */; };
+		A9FFDEAC21483D4C00FF0CED /* PlaybackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FFDEAA21483D4C00FF0CED /* PlaybackViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A9FFDE9321483A0700FF0CED /* voxreducer-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voxreducer-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFDE9721483A0700FF0CED /* voxreducer_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voxreducer_swiftUITests.swift; sourceTree = "<group>"; };
 		A9FFDE9921483A0700FF0CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FFDEA921483D4C00FF0CED /* PlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
+		A9FFDEAA21483D4C00FF0CED /* PlaybackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaybackViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		A9FFDE7621483A0500FF0CED /* voxreducer-swift */ = {
 			isa = PBXGroup;
 			children = (
+				A9FFDEA721483D0700FF0CED /* Controller */,
+				A9FFDEA621483CF900FF0CED /* View */,
+				A9FFDEA521483CEF00FF0CED /* Model */,
 				A9FFDE7721483A0500FF0CED /* AppDelegate.swift */,
-				A9FFDE7921483A0500FF0CED /* ViewController.swift */,
 				A9FFDE7B21483A0500FF0CED /* Main.storyboard */,
 				A9FFDE7E21483A0700FF0CED /* Assets.xcassets */,
 				A9FFDE8021483A0700FF0CED /* LaunchScreen.storyboard */,
@@ -123,6 +129,38 @@
 				A9FFDE9921483A0700FF0CED /* Info.plist */,
 			);
 			path = "voxreducer-swiftUITests";
+			sourceTree = "<group>";
+		};
+		A9FFDEA521483CEF00FF0CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9FFDEA621483CF900FF0CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFDEA821483D1600FF0CED /* Xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9FFDEA721483D0700FF0CED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFDE7921483A0500FF0CED /* ViewController.swift */,
+				A9FFDEA921483D4C00FF0CED /* PlaybackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9FFDEA821483D1600FF0CED /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFDEAA21483D4C00FF0CED /* PlaybackViewController.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FFDE8221483A0700FF0CED /* LaunchScreen.storyboard in Resources */,
+				A9FFDEAC21483D4C00FF0CED /* PlaybackViewController.xib in Resources */,
 				A9FFDE7F21483A0700FF0CED /* Assets.xcassets in Resources */,
 				A9FFDE7D21483A0500FF0CED /* Main.storyboard in Resources */,
 			);
@@ -256,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FFDEAB21483D4C00FF0CED /* PlaybackViewController.swift in Sources */,
 				A9FFDE7A21483A0500FF0CED /* ViewController.swift in Sources */,
 				A9FFDE7821483A0500FF0CED /* AppDelegate.swift in Sources */,
 			);
