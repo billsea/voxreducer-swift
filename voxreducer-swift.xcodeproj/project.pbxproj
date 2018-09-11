@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D586BE8BEFF9B1F11AB7E1A /* Pods_voxreducer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424D0F030C71C5086A0F5C8 /* Pods_voxreducer_swift.framework */; };
 		A9FFDE7821483A0500FF0CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDE7721483A0500FF0CED /* AppDelegate.swift */; };
 		A9FFDE7A21483A0500FF0CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDE7921483A0500FF0CED /* ViewController.swift */; };
 		A9FFDE7D21483A0500FF0CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFDE7B21483A0500FF0CED /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C38B97CFBE264D10D15D84C /* Pods-voxreducer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voxreducer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-voxreducer-swift/Pods-voxreducer-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		A9FFDE7421483A0500FF0CED /* voxreducer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "voxreducer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFDE7721483A0500FF0CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FFDE7921483A0500FF0CED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		A9FFDE9921483A0700FF0CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9FFDEA921483D4C00FF0CED /* PlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
 		A9FFDEAA21483D4C00FF0CED /* PlaybackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaybackViewController.xib; sourceTree = "<group>"; };
+		DEAFE75CCC185DB7A84FDFA3 /* Pods-voxreducer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voxreducer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-voxreducer-swift/Pods-voxreducer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		F424D0F030C71C5086A0F5C8 /* Pods_voxreducer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voxreducer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D586BE8BEFF9B1F11AB7E1A /* Pods_voxreducer_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F9458ECA3602105BF8DB866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C38B97CFBE264D10D15D84C /* Pods-voxreducer-swift.debug.xcconfig */,
+				DEAFE75CCC185DB7A84FDFA3 /* Pods-voxreducer-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9FFDE6B21483A0500FF0CED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				A9FFDE8B21483A0700FF0CED /* voxreducer-swiftTests */,
 				A9FFDE9621483A0700FF0CED /* voxreducer-swiftUITests */,
 				A9FFDE7521483A0500FF0CED /* Products */,
+				6F9458ECA3602105BF8DB866 /* Pods */,
+				AA206E46ED4D8AB887DA6729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +179,14 @@
 			path = Xib;
 			sourceTree = "<group>";
 		};
+		AA206E46ED4D8AB887DA6729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F424D0F030C71C5086A0F5C8 /* Pods_voxreducer_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FFDE9C21483A0700FF0CED /* Build configuration list for PBXNativeTarget "voxreducer-swift" */;
 			buildPhases = (
+				03C89B486A3CA952BF81AFE1 /* [CP] Check Pods Manifest.lock */,
 				A9FFDE7021483A0500FF0CED /* Sources */,
 				A9FFDE7121483A0500FF0CED /* Frameworks */,
 				A9FFDE7221483A0500FF0CED /* Resources */,
+				B835460DA1408D71A2B6FCA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +315,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C89B486A3CA952BF81AFE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-voxreducer-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B835460DA1408D71A2B6FCA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-voxreducer-swift/Pods-voxreducer-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-voxreducer-swift/Pods-voxreducer-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9FFDE7021483A0500FF0CED /* Sources */ = {
@@ -468,6 +535,7 @@
 		};
 		A9FFDE9D21483A0700FF0CED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C38B97CFBE264D10D15D84C /* Pods-voxreducer-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +554,7 @@
 		};
 		A9FFDE9E21483A0700FF0CED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEAFE75CCC185DB7A84FDFA3 /* Pods-voxreducer-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
